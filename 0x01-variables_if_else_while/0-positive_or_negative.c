@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <time.h>
-/* more headers goes there */
 #include <stdio.h>
+/* more headers goes there */
 /* betty style doc for function main goes there */
 /**
 * main - this program will assign a random number to the variable n
@@ -21,7 +21,7 @@ else if (n == 0)
 {
 printf("%d is zero\n", n);
 }
-else 
+else
 printf("%d is negative\n", n);
 return (0);
 }
