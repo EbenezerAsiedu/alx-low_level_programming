@@ -16,21 +16,17 @@
  */
 int main(void)
 {
-int i = 0;
-while (i < 100)
+int i;
+for (i = 0; i < 10; i++)
 {
-if (i / 10 < i % 10)
+if (i == 9)
+putchar(i + '0');
+else
 {
-putchar(i / 10 + '0');
-putchar(i % 10 + '0');
-if (i < 89)
-{
+putchar(i + '0');
 putchar(',');
 putchar(' ');
 }
 }
-i++;
-}
-putchar('\n');
 return (0);
 }
