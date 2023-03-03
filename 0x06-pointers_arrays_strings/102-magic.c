@@ -1,7 +1,5 @@
 #include <stdio.h>
-/**
- * main - a program that print an integer values
-*/
+
 int main(void)
 {
 	int n;
